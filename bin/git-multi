@@ -10,13 +10,13 @@ shift
 
 case "$command" in
     add*)
-        git-multi-add "$@"
+        /storage/git-multi/git-multi-add "$@"
     ;;
     work*)
-        git-multi-work "$@"
+        /storage/git-multi/git-multi-work "$@"
     ;;
     run*)
-        git-multi-run "$@"
+        /storage/git-multi/git-multi-run "$@"
     ;;
     *)
         echo "Pass the multi command."
