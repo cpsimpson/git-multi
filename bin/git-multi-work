@@ -5,4 +5,4 @@ if [ ! -n "$1" ]; then
     exit 1;
 fi
 
-/storage/git-multi/git-multi run "$1" "$SHELL"
+/storage/git-multi/bin/git-multi run "$1" "$SHELL"
