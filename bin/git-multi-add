@@ -14,7 +14,7 @@ set -e
 
 mkdir -p .git-multi
 
-git clone -f --bare "$2" ".git-multi/${1}"
+git clone --bare "$2" ".git-multi/${1}"
 
 git config -f ".git-multi/${1}/config" core.bare false
 git config -f ".git-multi/${1}/config" core.worktree "../../"
